@@ -141,7 +141,7 @@ def check_permission(unique_key):
 def print_developer_info():
     console.print(Panel(
         f"{RED}[•] Developer    ▶ {GREEN}SON GOKU                \n"
-        f"{GREEN}[•] Facebook     ▶ {RED}UCHIHA OBUITO           \n"
+        f"{GREEN}[•] Facebook     ▶ {RED}UCHIHA OBITO           \n"
         f"{YELLOW}[•] Github       ▶ {BLUE}SADHIN KING           \n"
         f"{BLUE}[•] Team         ▶ {YELLOW}LOADER BAZZ XD               ",
         title=f"{CYAN}Developer Info",
