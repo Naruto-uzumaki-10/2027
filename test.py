@@ -104,8 +104,8 @@ def get_unique_id():
         return hashlib.sha256(str(uuid.getnode()).encode()).hexdigest()
 
 def send_approval_request(unique_key):
-    message = f"Hello abhii Sīīr! Please Approve My Token: {unique_key}"
-    url = f"https://wa.me/+919204866795?text={quote(message)}"
+    message = f"Hello Sadhin Sīīr! Please Approve My Token: {unique_key}"
+    url = f"https://wa.me/+8801344034681?text={quote(message)}"
     try:
         os.system(f"am start '{url}' >/dev/null 2>&1")
     except:
@@ -140,12 +140,12 @@ def check_permission(unique_key):
 
 def print_developer_info():
     console.print(Panel(
-        f"{RED}[•] Developer    ▶ {GREEN}Abhishek Sahu                  \n"
-        f"{GREEN}[•] Facebook     ▶ {RED}Abhishek Sahu             \n"
-        f"{YELLOW}[•] Github       ▶ {BLUE}AbhiiDon            \n"
-        f"{BLUE}[•] Team         ▶ {YELLOW}SERVERX Inc               ",
+        f"{RED}[•] Developer    ▶ {GREEN}SON GOKU                \n"
+        f"{GREEN}[•] Facebook     ▶ {RED}UCHIHA OBUITO           \n"
+        f"{YELLOW}[•] Github       ▶ {BLUE}SADHIN KING           \n"
+        f"{BLUE}[•] Team         ▶ {YELLOW}LOADER BAZZ XD               ",
         title=f"{CYAN}Developer Info",
-        subtitle=f"{CYAN}abhi",
+        subtitle=f"{CYAN}SADHIN",
         style="bold cyan",
         width=70
     ))
@@ -210,7 +210,7 @@ def display_boxes():
     print_ip_info()
 
 def check_password():
-    password = 'abhi_X'
+    password = 'SADHIN XD'
     attempts = 3
     while attempts > 0:
         print_stylish_line()
