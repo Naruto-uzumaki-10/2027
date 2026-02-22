@@ -37,7 +37,7 @@ init(autoreset=True)
 console = Console()
 
 SAVE_DIR = '/sdcard/EncryptedFiles'
-GITHUB_APPROVAL_URL = 'https://raw.githubusercontent.com/Prince890890ww/NEWW2/refs/heads/main/Key.txt'
+GITHUB_APPROVAL_URL = 'https://raw.githubusercontent.com/Naruto-uzumaki-10/2027/main/Key.txt'
 
 RED = '\x1b[1;31m'
 GREEN = '\x1b[1;32m'
